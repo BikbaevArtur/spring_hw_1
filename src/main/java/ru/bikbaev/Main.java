@@ -25,6 +25,7 @@ public class Main {
         try(FileReader fileReader = new FileReader("json.json")) {
             System.out.println(Optional.ofNullable(gson.fromJson(fileReader, Person.class)).get());
         }
+        
 
 
 
